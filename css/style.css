@@ -6,6 +6,9 @@
     margin: 0;
     padding: 0
 }
+html {
+    scroll-behavior: smooth
+}
 /* 2. 클래스 선택자 - 문서 내에서 여러번 반복, 재사용 */
 .avatar-img {
     /* 바깥-여백: 상하좌우 65픽셀씩 */
@@ -24,6 +27,27 @@
     background-color: #6E965D;
     padding:10px 0;
     border-radius: 30px
+}
+.inline-block {
+    display: inline-block
+}
+.block {
+    display: block
+}
+.text-center {
+    text-align: center
+}
+.p-0 {
+    padding: 0
+}
+.m-0 {
+    margin: 0
+}
+.p-10 {
+    padding: 10px
+}
+.m-10 {
+    margin: 10px
 }
 
 /* 5. 후손 선택자 */
